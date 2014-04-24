@@ -1,0 +1,81 @@
+body {
+	/*background: #333;
+	color: white;*/
+	font-family: Arial;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	margin-bottom: 10px;
+}
+ul > li > * {
+	vertical-align: top;
+}
+input[type=text],
+textarea,
+select {
+	border: 2px solid #BDC3C7;
+	border-radius: 6px;
+	color: #34495E;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	padding: 8px 12px;
+	outline: none;
+	transition: border .25s linear, color .25s linear, background-color .25s linear;
+	-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+input[type=text]:focus,
+textarea:focus,
+select:focus {
+	border-color: #1ABC9C;
+}
+button {
+	border: 0;
+	border-radius: 3px;
+	color: white;
+	font-size: 14px;
+	height: 40px;
+	width: 100px;
+}
+
+.ms-domain {
+	width: 200px;
+	margin: 0 30px 0 10px;
+}
+.ms-test-domain {
+	outline: none;
+	margin: 40px 30px 0 -258px;
+	width: 200px;
+}
+
+.ms-js,
+.ms-css {
+	height: 50px;
+	margin: 0 30px 0 10px;
+	width: 400px;
+}
+.ms-remove {
+	background-color: #c0392b;
+	margin-left: 20px;
+}
+#ms-add {
+	background-color: #2980b9;
+}
+#ms-save {
+	background-color: #27ae60;
+	margin-right: 20px;
+}
+#ms-message {
+	display: inline-block;
+}
+
+
+#ms-export-container {
+	height: 70px;
+	width: 50%;
+}
+#ms-export, #ms-import {
+	background-color: #7f8c8d;
+}
