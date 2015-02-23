@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 
 	"name": "MyScript",
-	"version": "1.0",
+	"version": "0.7",
 	
 	"permissions": [
 		"http://*/*",
@@ -16,7 +16,6 @@
 	
 	"browser_action": {
 		"default_title": "Start MyScript",
-		//"default_icon": "icon.png",
 		"default_popup": "popup.html"
 	},
 	
